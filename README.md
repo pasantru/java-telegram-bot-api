@@ -292,7 +292,7 @@ ParseMode parseMode = ParseMode.HTML;
 
 ### Get file
 ```java
-GetFile request = new GetFile("fileId")
+GetFile request = new GetFile("fileId");
 GetFileResponse getFileResponse = bot.execute(request);
 
 File file = getFileResponse.file(); // com.pengrad.telegrambot.model.File
